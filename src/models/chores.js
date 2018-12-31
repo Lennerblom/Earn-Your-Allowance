@@ -1,10 +1,10 @@
-
-import mongoose from 'mongoose';
+'use strict';
+import mongoose, {Schema} from 'mongoose';
 
 const ChoresSchema = mongoose.Schema({
-  //choresID: { type: Schema.Types.ObjectID, ref:'chores' },
+  //choreId: { type: Schema.Types.ObjectID, ref:'user' },
   choreName: { type: String },
-  AssignedTo: { type: String },
+  assignedTo: { type: String },
   choreValue: { type: String },
   dueDateTime: { type: Date },
   status: { type: String },
