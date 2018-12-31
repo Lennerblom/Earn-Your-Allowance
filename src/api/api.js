@@ -2,8 +2,8 @@
 
 import express from 'express';
 const router = express.Router();
-import dateFormat from 'dateformat';
-const now = new Date();
+//import dateFormat from 'dateformat';
+//const now = new Date();
 
 import modelFinder from '../middleware/models.js';
 router.param('model', modelFinder);
