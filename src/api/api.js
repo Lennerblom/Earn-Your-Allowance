@@ -37,7 +37,7 @@ router.get('/api/v1/:model/:id', (req,res,next) => {
 
 router.get('api/v1/:model/:id', (req,res,next) => {
   req.model.findById(req.params.id)
-    .populate('station').exec()
+    .populate('chores').exec()
     .then(data => sendJSON(res,data))
     .catch(next);
 });
