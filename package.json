@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Lennerblom/Earn-Your-Allowance#readme",
   "dependencies": {
-    "aws-sdk": "^2.382.0",
+    "aws-sdk": "^2.403.0",
     "babel-env": "^2.4.1",
     "babel-eslint": "^10.0.1",
     "babel-register": "^6.26.0",
